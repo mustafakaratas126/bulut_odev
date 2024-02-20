@@ -1,0 +1,58 @@
+apiVersion: catalog.cattle.io/v1
+kind: ClusterRepo
+metadata:
+  creationTimestamp: '2024-02-20T21:39:42Z'
+  generation: 1
+  managedFields:
+    - apiVersion: catalog.cattle.io/v1
+      fieldsType: FieldsV1
+      fieldsV1:
+        f:spec:
+          .: {}
+          f:clientSecret: {}
+          f:gitBranch: {}
+          f:gitRepo: {}
+          f:url: {}
+      manager: rancher
+      operation: Update
+      time: '2024-02-20T21:39:42Z'
+    - apiVersion: catalog.cattle.io/v1
+      fieldsType: FieldsV1
+      fieldsV1:
+        f:status:
+          .: {}
+          f:branch: {}
+          f:commit: {}
+          f:conditions: {}
+          f:downloadTime: {}
+          f:indexConfigMapName: {}
+          f:indexConfigMapNamespace: {}
+          f:observedGeneration: {}
+          f:url: {}
+      manager: rancher
+      operation: Update
+      subresource: status
+      time: '2024-02-20T21:39:42Z'
+  name: mustafakaratasgit
+  resourceVersion: '16233'
+  uid: 68f3220b-7a8d-4f19-9eca-ada419b5ff51
+spec:
+  clientSecret: null
+  gitBranch: main
+  gitRepo: https://github.com/mustafakaratas126/bulut_odev.git
+  url: ''
+status:
+  branch: main
+  commit: 993494e9f1bc2389bfc34685c43d8040cf4244fc
+  conditions:
+    - lastUpdateTime: '2024-02-20T21:39:42Z'
+      status: 'True'
+      type: FollowerDownloaded
+    - lastUpdateTime: '2024-02-20T21:39:42Z'
+      status: 'True'
+      type: Downloaded
+  downloadTime: '2024-02-20T21:39:42Z'
+  indexConfigMapName: mustafakaratasgit-0-68f3220b-7a8d-4f19-9eca-ada419b5ff51
+  indexConfigMapNamespace: cattle-system
+  observedGeneration: 1
+  url: https://github.com/mustafakaratas126/bulut_odev.git
